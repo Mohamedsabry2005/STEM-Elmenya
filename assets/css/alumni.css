@@ -1,0 +1,38 @@
+/* hero section */
+.hero-image {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/comingsoon.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-image h1 {
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 77px;
+    font-weight:700;
+}
+
+.hero-image span {
+    width: 145px;
+    height: 10px;
+    background-color: #003459;
+    border-radius: 5px;
+}
+
+.hero-image p {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 77px;
+}
+.hero-image .back-to-home{
+    color: whitesmoke;
+    font-size: 25px;
+    padding: 10px 20px;
+    background-color: #003459;
+}
+.hero-image .back-to-home:hover {
+    color: rgb(255, 255, 255);
+    transition: 0.2s;
+}

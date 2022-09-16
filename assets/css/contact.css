@@ -1,0 +1,46 @@
+section >div {
+    width: 100%;
+    min-height: 100vh ;
+    height: auto;
+}
+
+section.contact-us {
+    background-image: url(../images/contact-us-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+form {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.section-heading h2 span {
+    color: #003459;
+    font-style: normal;
+    padding-left: 100px;
+    position: relative;
+    font-size: 42px;
+}
+
+.section-heading h2 span::before {
+    width: 80px;
+    height: 2px;
+    background-color: #003459;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 22px;
+}
+
+
+
+footer>div {
+    width: 100%;
+    margin: 0 !important;
+}
+
+

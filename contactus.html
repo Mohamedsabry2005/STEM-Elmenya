@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/navbar.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
+    <!-- bootstrap5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class=" bg-white navbar navbar-expand-md fixed-top">
+        <div class="container-lg">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./assets/images/logo.jpeg" alt="logo" />
+                <p class="d-inline-block mb-1">
+                    STEM Elmenya
+                </p>
+            </a>
+            <button class="navbar-toggler border border-3 border-primary" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-top h-50" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <a class="navbar-brand" href="./index.html"><img src="./assets/images/logo.png" alt="logo" /></a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body justify-content-end text-center">
+                    <ul class="navbar-nav gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Teachers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" nav-link" href="./alumni.html">Alumni</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">extracurriculars</a>
+                        </li>
+                        <a class="contact-us button-primary special" href="./contactus.html">Contact Us
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+
+    <section class="contact-us" id="contact">
+        <div class="p-5 mt-5">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading p-3">
+                        <h2><span>Talk to us</span> now!</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6 left-form">
+                    <form id="contact" action="" >
+                        <div class="row">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Your Name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="name@example.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">phone number</label>
+                                <input type="tel" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="phone number">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                            </div>
+                            <div class="col-lg-12">
+                                <button type="submit"  id="form-submit" class="button-primary main-button ">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-6 pt-1 right-map">
+                    <div id="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56304.17253589314!2d30.934661841796892!3d28.115702100000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145b279eb20a7ee1%3A0x292cdbfbe0b832f8!2z2YXYr9ix2LPYqSDYp9mE2YXYqtmB2YjZgtmK2YYg2YHZiSDYp9mE2LnZhNmI2YUg2YjYp9mE2KrZg9mG2YjZhNmI2KzZitinINio2KfZhNmF2YbZitin!5e0!3m2!1sar!2seg!4v1663312243667!5m2!1sar!2seg"
+                            width="100%" height="542px" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="bg-dark row py-5">
+            <div class="col p-2">
+                <ul
+                    class="nav text-center align-items-center justify-content-center flex-nowrap flex-column flex-lg-row">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Teachers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./alumni.html">Alumni</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  disabled" href="#">extracurriculars</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- boostrap5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>
